@@ -15,9 +15,12 @@
 Из локальной папки `сайт` выполните:
 
 ```bash
-gh release upload alpha-2026-11-21 ../builds/CUBE_Windows_x64.zip ../builds/CUBE_Linux_Fedora_x64.zip ../builds/CUBE_macOS_Universal.zip --repo DNSSND-dns/cube-public-alpha --clobber
+gh release upload alpha-2026-11-21 ../builds/CUBE_Windows_x64.zip ../builds/CUBE_Linux_Fedora_x64.zip ../builds/CUBE_macOS_Universal.zip ../builds/BUILD_INFO.json ../builds/SHA256SUMS --repo DNSSND-dns/cube-public-alpha --clobber
 ```
 
 После успешной загрузки сайт скачивает новые сборки по прежним ссылкам. Коммитить ZIP, менять файлы сайта или заново настраивать Pages не требуется.
 
 Альтернатива: Releases → Edit текущего релиза → удалить старые ZIP-вложения → прикрепить новые с теми же именами → Update release. Не удаляйте сам релиз.
+
+Условия использования: [LICENSE](LICENSE). Проверка загрузок: [VERIFYING_BUILDS.md](VERIFYING_BUILDS.md).
+При публикации новых сборок также приложите соответствующие `SHA256SUMS` и `BUILD_INFO.json`. Они должны относиться к тому же набору ZIP.

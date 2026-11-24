@@ -19,3 +19,6 @@
 !/assets/screenshots/*.jpg
 !/assets/screenshots/*.jpeg
 !/assets/screenshots/*.avif
+
+!/LICENSE
+!/VERIFYING_BUILDS.md
