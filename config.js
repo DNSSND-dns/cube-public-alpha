@@ -2,7 +2,7 @@
 window.CUBE_CONFIG = {
   projectName: "CUBE",
   github: { owner: "DNSSND-dns", repository: "cube-public-alpha" },
-  youtubeVideoId: "",
+  youtubeVideoId: "6vSRefFvBgo",
   supabase: { ownerFunction: "clever-service", url: "https://iymrrfzgfhictiifizvq.supabase.co", publishableKey: "sb_publishable_4JzmEkPnwZOC235mjn2wwQ_XtiIc3oR" },
   // Пример структуры: { label: "Discord", url: "https://..." }
   socials: [],
