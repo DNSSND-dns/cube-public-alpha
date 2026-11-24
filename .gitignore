@@ -1,0 +1,21 @@
+# Publish only the website files and screenshot images.
+/*
+!/.gitignore
+!/.gdignore
+!/.nojekyll
+!/README.md
+!/index.html
+!/style.css
+!/app.js
+!/config.js
+!/i18n.js
+!/theme.js
+!/assets/
+/assets/*
+!/assets/screenshots/
+/assets/screenshots/*
+!/assets/screenshots/*.png
+!/assets/screenshots/*.webp
+!/assets/screenshots/*.jpg
+!/assets/screenshots/*.jpeg
+!/assets/screenshots/*.avif
